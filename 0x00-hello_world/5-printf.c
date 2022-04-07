@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * Printing a sentence using the printf function.
  * main - main block
  * Return: 0
  */
