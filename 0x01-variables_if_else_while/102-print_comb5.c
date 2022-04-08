@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: program that prints all possible
+ * Description: Write a program that prints all possible
  * different combinations of two digits
  * Return: 0
  */
@@ -24,14 +24,15 @@ while (f < 10)
 			c = 0;
 			while (c < 10)
 			{
-				if (!(f == c && e == d) && !(f == 0 && e == 1 && d == 0 && c == 0) && !(f == 0 && e == 1 && d == 0 && c == 1))
+				if (!(f == 0 && e == 1 && d == 0 && c == 0) 
+				&& !(f == 0 && e == 1 && d == 0 && c == 1))
 				{
 					putchar('0' + f);
 					putchar('0' + e);
 					putchar(' ');
 					putchar('0' + d);
 					putchar('0' + c);
-					if (!(f + e == 18 && c + d == 17 && d == 9))
+					if (!(f + e == 18 && c + d == 17 && d == 9) )
 					{
 						putchar(',');
 						putchar(' ');
