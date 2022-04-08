@@ -16,7 +16,7 @@ int f = 0;
 while (f < 10)
 {
 	e = 0;
-	while (e < 10)
+	while (e < 9)
 	{
 		d = 0;
 		while (d < 10)
