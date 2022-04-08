@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Obtain a random number and check its last digit, compare it with 5
+ * Description: compare last digit with 5
  * Return: 0
  */
 int main(void)

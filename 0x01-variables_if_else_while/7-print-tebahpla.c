@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description:program that prints the lowercase alphabet in reverse, followed by a new line.
+ * Description: print the lowercase alphabet in reverse
  * Return: 0
  */
 int main(void)
