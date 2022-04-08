@@ -24,7 +24,7 @@ while (f < 10)
 			c = 0;
 			while (c < 10)
 			{
-				if (!(f == c && e == d))
+	 			if (!(f == c && e == d) && !(f == 0 && e == 1 && d == 0 && c == 0))
 				{
 					putchar('0' + f);
 					putchar('0' + e);
