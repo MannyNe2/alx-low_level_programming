@@ -1,0 +1,1 @@
+Readme located within the pointer functions directory :- bubblesort, compare and search
