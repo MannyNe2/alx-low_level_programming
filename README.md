@@ -1,1 +1,1 @@
-Readme within the root directory
+Readme within the makefile folder
